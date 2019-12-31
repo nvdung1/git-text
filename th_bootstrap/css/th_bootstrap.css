@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    color: black;
+}
+#session2,#footder
+{
+    background-color: black;
+}
+.box{
+    padding: 16px;
+    background-color:white;
+}
+.ke_chan{
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+.ke_tren{
+    padding-top: 50px;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+}
+li a{
+    color: #333;
+}
+.p-t-b{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

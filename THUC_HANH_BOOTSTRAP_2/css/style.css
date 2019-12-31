@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* cài đặt font mặc định */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+body{
+    background-color: #E7ECF4;
+}
+img{
+    max-width: 100%;
+}
+a{
+    color: black;
+}
+a:hover{
+    /* xóa gạch chận ở thẻ a  */
+    text-decoration: none;
+}
+header{
+    background-color: #222222;
+    /* padding: top right botton left; */
+     padding: 11px 0 11px 0;
+
+}
+#seach input{
+    margin-right: -5px;
+    padding-left: 12px;
+    width: 277px;
+    height: 30px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+#seach input::placeholder{
+    color: #222222;
+}
+#seach button{
+    height: 30px;
+    width: 78px;
+    border: none;
+    background-color: #EB1F27;
+    border-radius:  0 5px 5px 0;
+}
+#sub-cart span{
+    background-color: #EB1F27;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: none;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+}
+#sub-cart {
+    text-align: right;
+}
+.mau-1{
+    background-color: #EB1F27;
+}
+.text-menu{
+    display: none;
+}
+nav li{
+    border-right: 1px solid #C60A11;
+}
+.no_padding{
+    padding: 0px;
+}
+nav{
+ margin-bottom: 10px;   
+}
+nav a{
+    padding: 14px !important;
+
+}
+nav li:hover a{
+background-color: chocolate;
+}
+#font1{
+    padding: 14px 0 ;
+}
+#baner img{
+    margin-bottom: 10px;
+}
+.thongtin h4{
+    padding-bottom: 12px;
+    border-bottom: 1px solid black;
+    margin-bottom: 14px;
+}
+footer{
+    background-color: #FFFFFF;
+    padding: 23px 0;
+}
+#footer {
+    background-color: #1D1E24;
+    color: blanchedalmond;
+    padding: 14px 0;
+}
+#footer p{
+    margin-bottom: 0px;
+}
+/* css-product */
+.list-product h2{
+    padding: 18px 0 14px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product{
+    background-color: white;
+    text-align: center;
+    padding: 10px 27px 30px 27px;
+    border-radius: 5px;
+    border: 1px solid #999999;
+    margin-bottom: 10px;
+
+}
+.product img{
+    width: 124px;
+    height: 172px;
+}
+.product span{
+    color: #ec3b40;
+}
+.fix-padding-col{
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+    margin-bottom: 10px !important; 
+}
+.fix-row{
+    padding-left: 9px !important;
+    padding-right: 9px !important;
+}
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+.h2
+{
+  width: 190px;  
+}
+.box1{
+    margin-top: 10px;
+    display: flex;
+}
+.box2{
+    margin-right: 15px;
+}

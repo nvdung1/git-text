@@ -1,0 +1,12 @@
+img{
+    width: 190px;
+}
+.box1{
+    width: 200px;
+}
+.h2{
+  display: flex; 
+}
+p{
+    margin: 0;
+}

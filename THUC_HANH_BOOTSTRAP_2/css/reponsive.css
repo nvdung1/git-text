@@ -1,0 +1,35 @@
+/* reponsive col-md */
+@media screen and (max-width:992px)
+{
+    .text-menu{
+        display: block;
+    }
+    #slide,#baner{
+        display: none;
+    }
+    #logo{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    #seach input{
+        width: 80%;
+    }
+    #seach button{
+        width: 20%;
+    }
+}
+@media screen and (max-width:768px)
+{
+    .thongtin{
+        margin-bottom: 30px;
+    }
+    #sub-cart{
+        position: absolute;
+        right: 16px;
+        top: -74px;
+    }
+    #logo{
+        text-align: left;
+        padding-bottom: 10px;
+    }
+}
