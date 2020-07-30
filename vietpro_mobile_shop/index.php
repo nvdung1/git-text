@@ -122,7 +122,6 @@
     //footer
     include_once('modules/footer/footer.php');
     ?>
-
 </body>
 
 </html>
