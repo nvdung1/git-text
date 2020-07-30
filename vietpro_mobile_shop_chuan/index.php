@@ -18,8 +18,11 @@
     <link rel="stylesheet" href="css/cart.css">
     <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/success.css">
+    <link rel="stylesheet" href="css/btn_gotop">
+    <script src="https://kit.fontawesome.com/99f845d262.js" crossorigin="anonymous"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/btn_gotop.js"></script>
 </head>
 
 <body>
@@ -122,6 +125,7 @@
     //footer
     include_once('modules/footer/footer.php');
     ?>
+    <button id="btn_gotop" class="gotop"><i class="fa fa-chevron-up" aria-hidden="true"></i></button>
 </body>
 
 </html>

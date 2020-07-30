@@ -1,0 +1,16 @@
+#btn_gotop {
+	display: none;
+	/* font-size: 40px; */
+	/* color: #EB1F27; */
+	position: fixed;
+	bottom: 70px;
+	right: 20px;
+	z-index: 99;
+	border: none;
+	outline: none;
+    background-color: transparent;
+    background-color: #EB1F27;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
